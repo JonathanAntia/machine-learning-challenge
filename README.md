@@ -33,3 +33,15 @@ Lastly the AdaBoost classification algorithm was tested to see if it may have po
 ![Confusion Matrix With Boosted Parameters](/images/ConfusionMatrixAdaBoost.png)
 
 A very slight increase in the accuracy score occurs after applying the AdaBoost algorithm, from 0.9849 with default parameters to 0.9856 with AdaBoost.
+
+## K-Nearest Neighbor Classification
+
+![KNN Accuracy Scores](/images/KNNAccuracyScores.png)
+
+A KNN Classification model performs just as good as the boosted randomforest classification with default parameters and with hypertuned parameters. In both cases the predicted accuracy is 99% using K=3 and a p value of 1.
+
+KNN Confusion Matrix with Default Parameters:
+![KNN Confusion Matrix with Default Parameters](/images/KNNConfusionMatrixDefaultParameterss.png)
+
+KNN Confusion Matrix with Hypertuned Parameters:
+![KNN Confusion Matrix with Hypertuned Parameters](/images/KNNConfusionMatrixHypertunedParameters.png)
