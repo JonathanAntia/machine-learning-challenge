@@ -41,7 +41,7 @@ A very slight increase in the accuracy score occurs after applying the AdaBoost 
 A KNN Classification model performs just as good as the boosted randomforest classification with default parameters and with hypertuned parameters. In both cases the predicted accuracy is 99% using K=3 and a p value of 1.
 
 KNN Confusion Matrix with Default Parameters:
-![KNN Confusion Matrix with Default Parameters](/images/KNNConfusionMatrixDefaultParameterss.png)
+![KNN Confusion Matrix with Default Parameters](/images/KNNConfusionMatrixDefaultParameters.png)
 
 KNN Confusion Matrix with Hypertuned Parameters:
 ![KNN Confusion Matrix with Hypertuned Parameters](/images/KNNConfusionMatrixHypertunedParameters.png)
